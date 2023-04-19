@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae9d84730a.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="icon" href="docs/Pokeball.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Starters Battle</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="heading">Starters Battle</h1>
+            <marquee behavior=scroll direction="left" scrollamount="20">Challenge Computer To Beat In The Best Starters Battle Game</marquee>
+            <button id="button" class="restart_btn">Restart Game</button>
+            <div id="score" class="score">
+                <h3>Player : 0</h3>
+                <h3>Computer : 0</h3>
+            </div>
+        </header>
+        
+        <h2>Select Your Pokemon
+        </h2>
+        <div class="choices">
+            <div id="first"><img id="Grass-Type"class="choice" src="docs/Venusaur.png"></div>
+            <div id="second"><img id="Fire-Type"class="choice" src="docs/Charizard.png"></div>
+            <div id="third"><img id="Water-Type" class="choice" src="docs/Blastoise.png"></div>
+            
+        </div>
+
+    </div>
+    <div class="main">
+        <div id="result" class="main_content">
+            <h1 class="win_text">You Win</h1>
+            <img class="Blas" src="docs/Blastoise.png">
+            <h3>Computer Choose Blastoise</h3>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

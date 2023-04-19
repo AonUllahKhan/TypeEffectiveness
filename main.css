@@ -1,0 +1,44 @@
+.main {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.main_content {
+    background: #F9F6EE;
+    color: #403b4a;
+    text-align: center;
+    margin: 10% auto;
+    width: 350px;
+    padding: 2rem;
+    box-shadow: #403b4a 0px 0px 20px 0px;
+    border-radius: 10px;
+    animation-name: mainopen;
+    animation-duration: 2s;
+}
+
+.main_content .Blas {
+    width: 200px;
+    height: 140px;
+}
+
+.main_content h1 {
+    font-size: 40px;
+}
+
+@keyframes mainopen {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+
+    }
+}
